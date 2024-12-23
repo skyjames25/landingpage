@@ -1,0 +1,199 @@
+body {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    font-family: 'Roboto, Courier New';
+    background-color: white;
+    margin:0;
+}
+
+h3, p, li {
+    margin:0;
+}
+
+.title {
+    color:white;
+    font-size:48px;
+    font-weight:900;
+}
+
+.logo{
+    font-size: 24px;
+    color:white;
+    font-weight: 900;
+}
+
+.header , .footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 16px 160px;
+    flex-direction: column;
+}
+
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding-bottom:10px;
+}
+
+.navbar ul {
+    display:flex;
+    list-style:none;
+    gap:16px
+}
+
+
+
+.navbar li a {
+    font-size:18px;
+    color:white;
+    text-decoration: none;
+    
+    
+}
+
+.header-content {
+    display: flex;
+    margin: 32px 0;
+    justify-content: space-between;
+}
+
+.left-side {
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.header p, .info-text p{
+    color: #e5e7eb;
+}
+
+.footer {
+    align-items: center;
+}
+
+.right-side {
+    width: auto; /* Allow the browser to calculate width based on the height */
+    height: auto; /* Keep the aspect ratio */
+    max-width: 500px; /* Optional: Limits the width to prevent overly large images */
+    max-height: 250px; /* Optional: Limits the height */
+    
+}
+
+button {
+    background-color: lightcoral;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border:none;
+    color:white;
+    width: fit-content;
+}
+
+
+
+/* .header{
+    background-color:burlywood;
+} */
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.middle-upper {
+ 
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    text-align: center;
+    flex:1;
+    padding:32px 0px;
+    gap:40px
+}
+
+.cards {
+    display:flex;
+    justify-content: center;
+    gap:16px;
+}
+
+.card {
+    max-width: 150px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-image {
+    border:red 2px solid;
+    border-radius: 50%;
+    width:96px;
+    height:96px;
+}
+
+.info-text {
+    font-size:36px;
+    color: black;
+    font-weight: 900;
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    background-color: whitesmoke;
+    padding:80px 160px;
+}
+
+.quote span {
+    font-size: 24px;
+    color: black;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+   
+}
+.info {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 32px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+
+.cta {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.outlined-button {
+    border:white 2px solid;
+    
+}
+
+
+.footer{
+    padding: 32px;
+}

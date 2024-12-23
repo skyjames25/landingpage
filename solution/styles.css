@@ -1,0 +1,186 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'Roboto, Courier New';
+    background-color: white;
+    margin:0;
+
+
+}
+
+h3{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+
+}
+
+.title{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header , .footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 16px 160px;
+    flex-direction: column;
+  
+}
+
+.header p, .info-text p{
+    color: #e5e7eb;
+}
+
+.header-content{
+    display: flex;
+    margin: 32px 0;
+    justify-content: space-between;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer{
+    align-items: center;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.navr li{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+
+
+button{
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
+    color: #f9faf8;
+    width: fit-content;
+    font-weight: 500;
+    
+}
+.right-side{
+    width: 500px;
+    height: 250px;
+    
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    text-align:center;
+    padding: 32px 0px;
+    gap: 40px;
+    flex: 1;
+}
+
+.cards{
+    display:flex;
+    gap:16px;
+    justify-content: center;
+}
+
+.card{
+    max-width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    flex: 3;
+    display: flex;
+    padding: 80px 160px;
+    flex-direction: column;
+}
+
+.quote span{
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.info{
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 32px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.call-to-action{
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
+
+
+.card-image{
+    border: #3882f6 2px solid;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+   
+}
+
+.outlined-button{
+    border: white 2px solid;
+}
+
+.footer{
+    padding: 32px;
+}
